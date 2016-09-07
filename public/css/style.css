@@ -33,3 +33,7 @@ float:left;
 .instagram-bar .comments {
 float:right;
 }
+.navbar-inverse {
+  background:#76FF03;
+  border-color:#64DD17;
+}
