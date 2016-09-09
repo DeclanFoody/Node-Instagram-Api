@@ -1,6 +1,6 @@
 
 body {
-background:black;
+background:#80D8FF;
 padding-top:50px;
 }
 footer {
@@ -43,4 +43,5 @@ border-radius:15%;
 .navbar-inverse {
   background:#76FF03;
   border-color:#64DD17;
+  box-shadow:0 0 5px rgba(0, 0, 0, 0.5);
 }
