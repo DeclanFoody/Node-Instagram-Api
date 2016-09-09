@@ -1,4 +1,6 @@
+
 body {
+background:black;
 padding-top:50px;
 }
 footer {
@@ -23,15 +25,20 @@ left:0;
 padding-left:30px;
 padding-right:30px;
 color:#FFF;
+font-weight:bold;
 }
 .instagram-bar span {
 margin-right:5px;
 }
 .instagram-bar .likes {
 float:left;
+background:#F44336;
+border-radius:15%;
 }
 .instagram-bar .comments {
 float:right;
+background:#F44336;
+border-radius:15%;
 }
 .navbar-inverse {
   background:#76FF03;

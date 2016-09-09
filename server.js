@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 
 
 ig.use({
-  access_token:'MYACCESSCODE',
+  access_token:'298810876.1677ed0.f6ee9ae7952d4663b5284483c49a0ccc',
 });
 // alternatively we can use the client_id and client_secret
 // for now we'll use the access_token way
