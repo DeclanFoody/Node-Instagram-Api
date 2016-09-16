@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 
 
 ig.use({
-  access_token:'298810876.1677ed0.f6ee9ae7952d4663b5284483c49a0ccc',
+  access_token:,
 });
 // alternatively we can use the client_id and client_secret
 // for now we'll use the access_token way
@@ -38,6 +38,14 @@ res.render('pages/index', { grams: medias });
 });
 });
 
+app.get('/liked', function(req, res) {
+ig.location_media_recent('Vancouver', function(err, result, pagination, remaining, limit) {
+  res.render('pages/liked', { grams: result});
+});
+});
+app.get('/dlikes', function(req, res) {
+  ig.
+})
 // Start the surfer
 
 app.listen(3000);
